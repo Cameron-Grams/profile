@@ -6,7 +6,7 @@ const Topic = ( props ) => {
     console.log( props.destination );
 
     return(
-        <div className={ "topic" } >
+        <div className={ props.className } >
           <Link to={ props.destination } >
           <div className={ "shell" }>
           <h2>{ props.title }</h2>

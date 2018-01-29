@@ -1,18 +1,12 @@
 import React from 'react';
-
-import List from './List'; 
-import InterestList from '../data/InterestList';
+import Topic from '../containers/Topics/Topic';
 
 const Interests = ( props ) => {
     
     return(
-        <div className={ "headerContent" }  >
-        <h2>Hobbies and Interests</h2>
-        <h3>Reading</h3>
-        <List itemListArray={ InterestList } /> 
-        <h3>Travel</h3>
-        <List itemListArray={ InterestList } /> 
-
+        <div>
+            <Topic className={ "headerContent" } title={ "Reading" } destination={ '/reading' } />
+            <Topic  className={ "headerContent" } title={ "Travel" } destination={ '/travel' } />
         </div>
     )
 };

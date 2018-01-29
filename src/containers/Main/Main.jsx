@@ -10,11 +10,11 @@ const Main = ( props ) => {
       <div className="App">
        <Header />  
 
-       <Topic title={ "Future Goals" } destination={ '/goals' } />
+       <Topic className={ "topic" } title={ "Future Goals" } destination={ '/goals' } />
        
-       <Topic title={ "Projects" }  destination={ '/projects' } />
+       <Topic  className={ "topic" } title={ "Projects" }  destination={ '/projects' } />
 
-       <Topic title={ "Hobies and Interests" } destination={ '/interests' } />
+       <Topic  className={ "topic" } title={ "Hobies and Interests" } destination={ '/interests' } />
 
        <Contact /> 
       </div>
