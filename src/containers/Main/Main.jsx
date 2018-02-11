@@ -16,6 +16,7 @@ const Main = ( props ) => {
 
        <Topic type={ "topic" } title={ "Hobies and Interests" } destination={ '/interests' } />
 
+
        <Contact /> 
       </div>
     );
