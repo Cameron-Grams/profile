@@ -1,7 +1,7 @@
 import React from 'react';
 
-import List from './List'; 
-import GoalList from '../data/GoalList';
+import List from './list'; 
+import GoalList from '../data/goalList';
 
 const Goals = ( props ) => {
     

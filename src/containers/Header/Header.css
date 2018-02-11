@@ -1,0 +1,9 @@
+.headerContent{
+  width: 50%;
+  margin: 5% auto; 
+  padding: 10px;
+  border: 1px solid rgb(151, 148, 148);
+  border-radius: 5px; 
+  box-shadow: 10px 10px 10px rgb(175, 174, 174);
+}
+

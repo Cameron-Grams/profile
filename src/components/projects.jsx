@@ -1,14 +1,14 @@
 import React from 'react';
 
-import List from './List'; 
-import ProjectsList from '../data/ProjectsList';
+import List from './list'; 
+import ProjectsList from '../data/projectsList';
 
 const Projects = ( props ) => {
     
     return(
         <div className={ "headerContent" }  >
-        <h2>Projects</h2>
-        <List itemListArray={ ProjectsList } /> 
+          <h2>Projects</h2>
+          <List itemListArray={ ProjectsList } /> 
         </div>
     )
 };
