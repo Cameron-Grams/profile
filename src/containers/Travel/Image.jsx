@@ -26,4 +26,4 @@ export default class Image extends Component {
   }
 }
 
-//  http://blog.matthewcheok.com/a-better-img-tag/  
+//from   http://blog.matthewcheok.com/a-better-img-tag/  
