@@ -1,12 +1,14 @@
 import React from 'react';
 import Topic from '../containers/Topics/Topic'; 
+import ReturnButton from './returnButton';
 
 const Interests = ( props ) => {
     
     return(
         <div>
-        <Topic type={ "interest" } title={ "Reading" } destination={ '/readings' } />
-        <Topic type={ "interest" } title={ "Travel" } destination={ '/travel' } /> 
+            <ReturnButton />
+            <Topic type={ "interest" } title={ "Reading" } destination={ '/readings' } />
+            <Topic type={ "interest" } title={ "Travel" } destination={ '/travel' } /> 
         </div>
     )
 };

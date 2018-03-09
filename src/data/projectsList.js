@@ -14,8 +14,8 @@ const ProjectsList = [
     {
         title: "Simon",
         content: "I built this because it was fun and provided a good exercise for working with SVG files.",
-        demonstration: "https://cameron-grams.github.io/USLanguageDistribution/",
-        sourceCode: "https://github.com/Cameron-Grams/USLanguageDistribution"
+        demonstration: "https://cameron-grams.github.io/Simon/",
+        sourceCode: "https://github.com/Cameron-Grams/Simon"
     },
     {
         title: "Pomodoro Clock",
