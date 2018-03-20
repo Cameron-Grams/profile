@@ -1,0 +1,27 @@
+.outerShell{
+    margin-top: 5%; 
+    width: 100%;
+}
+
+.innerShell{
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: auto;
+    clear: both; 
+}
+
+.leftSide{
+    float: left;
+    width: 50%;
+}
+
+.rightSide{
+    float: right;
+    width: 45%;
+}
+
+.contactInfo{
+    width: 75%;
+    margin: auto; 
+}

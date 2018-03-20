@@ -7,6 +7,7 @@ import Goals from './components/goals';
 import Interests from './components/interests';
 import Readings from './components/readingList'; 
 import Travel from './containers/Travel/Travel'; 
+import Contact from './containers/Contact/Contact'; 
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path="/interests" component={ Interests } /> 
           <Route path="/readings" component={ Readings } /> 
           <Route path="/travel" component={ Travel } /> 
+          <Route path="/contact" component={ Contact } /> 
         </Switch>
       </Router>
     ) 
