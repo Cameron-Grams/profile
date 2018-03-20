@@ -1,5 +1,10 @@
 const readingList = [
     {
+        title: "The Hunt for Vulcan",
+        content: "Fantastic explanation of relativity through the history of the search for a planet that was not there; astronomy before the theory of relativity was developed and the search to explain what was observed.", 
+        author: "Thomas Levenson"
+    },
+    {
         title: "The Daily Stoic",
         content: "Stoic Philosophy presented as food for thought each day", 
         author: "Ryan Holiday"

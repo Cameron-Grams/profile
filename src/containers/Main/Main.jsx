@@ -1,23 +1,29 @@
 import React from 'react';
-
+import './Main.css'; 
 import Header from '../Header/Header';
 import Topic from '../Topics/Topic';
-import Contact from '../Contact/Contact'; 
 
 const Main = ( props ) => {
 
     return (
-      <div className="App">
-       <Header />  
+      <div className="App outerShell">
+        <div className="innerShell" >
 
-       <Topic type={ "topic" } title={ "Future Goals" } destination={ '/goals' } />
-       
-       <Topic type={ "topic" } title={ "Projects" }  destination={ '/projects' } />
+            <div className={ "leftSide" } >
+              <Header />  
+            </div>
 
-       <Topic type={ "topic" } title={ "Hobies and Interests" } destination={ '/interests' } />
+            <div className={ "rightSide" } >
 
+                <Topic type={ "topic" } title={ "Projects" }  destination={ '/projects' } />
 
-       <Contact /> 
+                <Topic type={ "topic" } title={ "Future Goals" } destination={ '/goals' } />
+
+                <Topic type={ "topic" } title={ "Hobies and Interests" } destination={ '/interests' } />
+
+                <Topic type={ "topic" } title={ "Contact Information" } destination={ '/contact' } />
+            </div>
+        </div>
       </div>
     );
 }
