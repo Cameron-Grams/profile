@@ -25,7 +25,7 @@ const captions = [
 const titles = [
     "Al Anbar Police Advisers",
     "Cyprus Residency",
-    "Me and the Dictator",
+    "With Saddam Hussain",
     "Malta",
     "Helmand, Afghanistan"
 ]

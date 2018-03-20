@@ -5,7 +5,7 @@ const List = ( props ) => {
         props.itemListArray.map( ( item, index ) =>  {
 
             const linkedExamples = ( item.demonstration && 
-            <p>The Project: <a href={ item.demonstration }>Demonstration</a> || <a href={ item.sourceCode }>Code</a></p> );
+            <p>The Results: <a href={ item.demonstration }>The Project</a> || <a href={ item.sourceCode }>The Code</a></p> );
 
             const authorDetails = ( item.author &&
             <p>By { item.author }</p>);
