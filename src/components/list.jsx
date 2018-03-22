@@ -1,6 +1,9 @@
 import React from 'react';
 
+
 const List = ( props ) => {
+
+
     return(
         props.itemListArray.map( ( item, index ) =>  {
 
@@ -9,6 +12,9 @@ const List = ( props ) => {
 
             const authorDetails = ( item.author &&
             <p>By { item.author }</p>);
+
+            const projectImage = ( item.projectImage && 
+            <div className={ "css-main-projectImageShell" } ><img className={ "css-main-projectImage" } src={ require( `${ item.projectImage }` ) } alt="project example" /></div> ); 
             
             return (
             <div key= { index } >
@@ -16,6 +22,7 @@ const List = ( props ) => {
                 <p>{ item.content }</p>
                  { linkedExamples }
                  { authorDetails }
+                 { projectImage }
             </div>
         ) } 
     ) )
@@ -23,3 +30,4 @@ const List = ( props ) => {
 
 export default List;
 
+//            const langDistImage = '../data/projectImages/langDist.png';

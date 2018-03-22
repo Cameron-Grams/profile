@@ -25,3 +25,13 @@
     width: 75%;
     margin: auto; 
 }
+
+.css-main-projectImageShell{
+    width: 100%;
+}
+
+.css-main-projectImage{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+}
