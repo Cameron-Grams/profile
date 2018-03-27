@@ -1,8 +1,20 @@
+const mathDojo = "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/demo_screen.png";
+
+
+
+
 const ProjectsList = [
+    {
+        title: "Analyst Timeline Project",
+        content: "This is a tool for organizing research built using React, Redux, Node and MongoDB.  I built this because I found a timeline useful when learning about new situations.",
+        projectImage: "./projectImages/analystTimeline.png",
+        demonstration: "https://amazing-davinci-10dc21.netlify.com/login",
+        sourceCode: "https://github.com/Cameron-Grams/third_timeline_client"
+    },
     {
         title: "Math Dojo",
         content: "I built this site to help my nephew practice his basic math.  It is a straight-foward Node project employing MongoDB and hosted on Heroku.",
-        projectImage: "./projectImages/demo_screen.png",
+        projectImage: mathDojo,
         demonstration: "https://warm-badlands-54373.herokuapp.com/math-dojo.html",
         sourceCode: "https://github.com/Cameron-Grams/MathDojo"
     },
