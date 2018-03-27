@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
-import image1 from './images/iraqTeam.jpg';
-import image2 from './images/photo2.jpg';
-import image3 from './images/warned.jpg';
-import image4 from './images/PM_Office.jpg';
-import image5 from './images/team.jpg';
 import TravelButton from './travelButton'; 
 import './Travel.css'; 
 import ReturnButton from '../../components/returnButton';
 
 
 const images = [
-    image1, image2, image3, image4, image5
+    "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/iraqTeam.jpg", 
+    "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/photo2.jpg", 
+    "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/warned.jpg", 
+    "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/PM_Office.jpg", 
+    "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/team.jpg"
 ];
 
 const captions = [
