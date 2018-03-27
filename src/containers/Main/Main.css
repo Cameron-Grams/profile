@@ -4,12 +4,14 @@
 }
 
 .innerShell{
-    width: 90%;
-    max-width: 1500px;
-    margin: auto;
-    overflow: auto;
-    clear: both; 
+    display: none;
 }
+
+
+.smallDisplay{
+    display: block;
+}
+
 
 .leftSide{
     float: left;
@@ -32,6 +34,23 @@
 
 .css-main-projectImage{
     display: block;
-    max-width: 500px;
+    width: 55%;
     margin: auto;
+}
+
+
+@media only screen and ( min-width: 760px ) {
+    .smallDisplay{
+        display: none;
+    }
+
+    .innerShell{
+        display: block; 
+        width: 90%;
+        max-width: 1500px;
+        margin: auto;
+        overflow: auto;
+        clear: both; 
+    }
+
 }
