@@ -14,7 +14,7 @@ const List = ( props ) => {
             <p>By { item.author }</p>);
 
             const projectImage = ( item.projectImage && 
-            <div className={ "css-main-projectImageShell" } ><img className={ "css-main-projectImage" } src={ require( `${ item.projectImage }` ) } alt="project example" /></div> ); 
+            <div className={ "css-main-projectImageShell" } ><img className={ "css-main-projectImage" } src={ item.projectImage} alt="project example" /></div> ); 
             
             return (
             <div key= { index } >

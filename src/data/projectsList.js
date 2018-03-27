@@ -1,8 +1,14 @@
 const mathDojo = "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/demo_screen.png";
-
-
-
-
+const ProjectsList = [
+ {
+        title: "Math Dojo",
+        content: "I built this site to help my nephew practice his basic math.  It is a straight-foward Node project employing MongoDB and hosted on Heroku.",
+        projectImage: mathDojo,
+        demonstration: "https://warm-badlands-54373.herokuapp.com/math-dojo.html",
+        sourceCode: "https://github.com/Cameron-Grams/MathDojo"
+    }
+];
+/*
 const ProjectsList = [
     {
         title: "Analyst Timeline Project",
@@ -47,5 +53,5 @@ const ProjectsList = [
         sourceCode: "https://github.com/Cameron-Grams/RealAutomotive"
     }
 ];
-  
+*/  
 module.exports = ProjectsList;
