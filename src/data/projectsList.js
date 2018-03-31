@@ -1,7 +1,7 @@
 const ProjectsList = [
     {
         title: "Analyst Timeline Project",
-        content: "This is a tool for organizing research built using React, Redux, Node and MongoDB.  I built this because I found a timeline useful when learning about new situations.",
+        content: "This is a tool for organizing research built using React, Redux, Node and MongoDB.  I built this because I find a timeline useful when learning about new situations.",
         projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/analystTimeline.png",
         demonstration: "https://amazing-davinci-10dc21.netlify.com/login",
         sourceCode: "https://github.com/Cameron-Grams/third_timeline_client"
@@ -15,14 +15,14 @@ const ProjectsList = [
     },
     {
         title: "Languages in the United States",
-        content: "I built this because I have always found languages fascinating.  It uses US Census data from 2013 that I cleaned and configured by hand and then built the layers for the MapBox API", 
+        content: "I built this because I have always found languages fascinating.  It uses US Census data from 2013 that I cleaned and configured by hand and then built the layers for the MapBox API using JQuery", 
         projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/langDist.png",
         demonstration: "https://cameron-grams.github.io/USLanguageDistribution/",
         sourceCode: "https://github.com/Cameron-Grams/USLanguageDistribution"
     },
     {
         title: "Simon",
-        content: "I built this because it was fun and provided a good exercise for working with SVG files.",
+        content: "I built this because it was fun and provided a good exercise for working with SVG files and JQuery.",
         projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/simon.png",
         demonstration: "https://cameron-grams.github.io/Simon/",
         sourceCode: "https://github.com/Cameron-Grams/Simon"

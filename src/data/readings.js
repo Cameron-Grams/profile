@@ -16,8 +16,8 @@ const readingList = [
     },
     {
         title: "Leaders Eat Last",
-        content: "One of the best books on leadership; what it takes to ensure a group identifies and functions.", 
-        author: "Gen. Stanley McCrystal"
+        content: "One of the best books on leadership; what it takes to ensure a group identifies and functions as a high-performing group.", 
+        author: "Simon Sinek"
     },
     {
         title: "Sapiens",
@@ -36,7 +36,7 @@ const readingList = [
     },
     {
         title: "Team of Teams",
-        content: "Master's study of task organization, presented a wide range of topics that are stimulating from the perspective of organizational leadership.", 
+        content: "Master's study of task organization, presented a wide range of topics that are stimulating and useful from the perspective of organizational leadership.", 
         author: "Gen. Stanley McCrystal"
     },
     {

@@ -4,7 +4,7 @@
 }
 
 .interest{
-  width: 33%; 
+  width: 90%; 
   margin: 35px auto;
   padding: 5px; 
   text-align: center; 
@@ -25,4 +25,9 @@
     box-shadow: 10px 10px 10px rgb(175, 174, 174);
 }
 
+@media only screen and ( min-width: 760px ) {
 
+  .interest{
+    width: 33%; 
+  }
+}
