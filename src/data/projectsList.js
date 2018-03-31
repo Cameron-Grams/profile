@@ -2,7 +2,7 @@ const ProjectsList = [
     {
         title: "Analyst Timeline Project",
         content: "This is a tool for organizing research built using React, Redux, Node and MongoDB.  I built this because I find a timeline useful when learning about new situations.",
-        projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/analystTimeline.png",
+        projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/analystTimeline2.png",
         demonstration: "https://amazing-davinci-10dc21.netlify.com/login",
         sourceCode: "https://github.com/Cameron-Grams/third_timeline_client"
     },
