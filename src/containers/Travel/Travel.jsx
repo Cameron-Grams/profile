@@ -8,7 +8,6 @@ import ReturnButton from '../../components/returnButton';
 const images = [
     "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/iraqTeam.jpg", 
     "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/photo2.jpg", 
-    "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/warned.jpg", 
     "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/PM_Office.jpg", 
     "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/team.jpg"
 ];
@@ -16,7 +15,6 @@ const images = [
 const captions = [
     "My survey team that established the District Police Force in Al Qaim, Iraq, 2005.",
     "Cyprus 2011",
-    "We warned him...",
     "Prime Minister's office in Malta.",
     "The Helmand Provincial Team, Lashkar Gah, 2010"
 ];
@@ -24,7 +22,6 @@ const captions = [
 const titles = [
     "Al Anbar Police Advisers",
     "Cyprus Residency",
-    "With Saddam Hussain",
     "Malta",
     "Helmand, Afghanistan"
 ]
@@ -79,3 +76,4 @@ export default class Images extends Component {
 }
 
 // built using the lightbox component from: https://github.com/fritz-c/react-image-lightbox
+//     "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/warned.jpg", 
