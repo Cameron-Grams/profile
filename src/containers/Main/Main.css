@@ -45,6 +45,7 @@
     }
 
     .innerShell{
+        border: 1px solid black;
         display: block; 
         width: 90%;
         max-width: 1500px;
