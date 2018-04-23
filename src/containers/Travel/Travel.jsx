@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import { Redirect } from 'react-router'; 
 import Lightbox from 'react-image-lightbox';
-import TravelButton from './travelButton'; 
 import './Travel.css'; 
-import ReturnButton from '../../components/returnButton';
 
 
 const images = [
@@ -32,30 +31,23 @@ export default class Images extends Component {
 
     this.state = {
       photoIndex: 0,
-      isOpen: false,
+      isOpen: true
     };
   }
 
-  startShow = () => {
-    this.setState({ isOpen: true } );
+  endShow = () => {
+    this.setState({ isOpen: false } );
   }
 
   render() {
     const { photoIndex, isOpen } = this.state;
 
-    return (
-      <div>
-
-        <ReturnButton /> 
-        <TravelButton clickHandler={ this.startShow } />
-
-       
-        {isOpen && (
+    const displayPhotos = isOpen ? 
           <Lightbox
             mainSrc={images[photoIndex]}
             nextSrc={images[(photoIndex + 1) % images.length]}
             prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-            onCloseRequest={() => this.setState({ isOpen: false })}
+            onCloseRequest={() => this.endShow() }
             onMovePrevRequest={() =>
               this.setState({
                 photoIndex: (photoIndex + images.length - 1) % images.length,
@@ -69,7 +61,15 @@ export default class Images extends Component {
             imageTitle={ titles[ photoIndex ] }
             imageCaption={ captions[ photoIndex ] }
           />
-        )}
+         :
+         <Redirect to={ "/interests" } /> 
+
+
+
+
+    return (
+      <div>
+         { displayPhotos } 
       </div>
     );
   }
