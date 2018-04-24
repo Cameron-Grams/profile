@@ -45,6 +45,8 @@
     }
 
     .innerShell{
+        background-color: white;
+        border-radius: 5px;
         border: 1px solid black;
         display: block; 
         width: 90%;
