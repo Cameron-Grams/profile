@@ -7,6 +7,13 @@ const ProjectsList = [
         sourceCode: "https://github.com/Cameron-Grams/third_timeline_client"
     },
     {
+        title: "532 Packard Street Apartment Rentals",
+        content: "This is a site for an apartment rental business at the University of Michigan.  The site was built with React and used Google Maps in a component along with a contact form using AWS SES on a Node endpoint.",
+        projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/532packard.png",
+        demonstration: "https://www.532packard.com",
+        sourceCode: "https://github.com/Cameron-Grams/532Packard"
+    },
+    {
         title: "Math Dojo",
         content: "I built this site to help my nephew practice his basic math.  It is a straight-foward Node project employing MongoDB and hosted on Heroku.",
         projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/demo_screen.png",
