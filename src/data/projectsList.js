@@ -17,14 +17,14 @@ const ProjectsList = [
         title: "Math Dojo",
         content: "I built this site to help my nephew practice his basic math.  It is a straight-foward Node project written with JQuery and employs MongoDB to maintain user records. The application is hosted on Heroku.",
         projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/demo_screen.png",
-        demonstration: "https://warm-badlands-54373.herokuapp.com/math-dojo.html",
+        demonstration: "http://www.math-dojo.us/math-dojo.html",
         sourceCode: "https://github.com/Cameron-Grams/MathDojo"
     },
     {
         title: "Languages in the United States",
         content: "I built this because I have always found languages fascinating.  The application uses US Census data from 2013 that was cleaned and configured into JSON from the US Census web site. The language data was then added as layers to the US map using the MapBox API. The application uses JQuery to reach the MapBox API.", 
         projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/langDist.png",
-        demonstration: "https://cameron-grams.github.io/USLanguageDistribution/",
+        demonstration: "http://us-languages2013.fun/",
         sourceCode: "https://github.com/Cameron-Grams/USLanguageDistribution"
     },
     {
