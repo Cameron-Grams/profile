@@ -6,7 +6,7 @@ const Contact = () => {
         <div>
           <ReturnButton />
 
-          <div className={ "headerContent contactInfo" }>
+          <div id={ "contactInfo" } className={ "headerContent " }>
               <h1>cameron.grams@gmail.com</h1>
               <h1><a href={ "https://www.linkedin.com/in/cameron-grams-8517a9b/" } >LinkedIn</a></h1>
               <h1><a href={ "https://github.com/Cameron-Grams" } >GitHub</a></h1>

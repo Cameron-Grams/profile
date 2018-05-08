@@ -1,9 +1,12 @@
 .headerContent{
   background-color: white; 
-  margin: 5%; 
+  margin: 2%; 
   padding: 30px;
   border: 1px solid rgb(151, 148, 148);
   border-radius: 5px; 
+}
+
+.introFormat{ 
   box-shadow: 10px 10px 10px rgb(175, 174, 174);
 }
 

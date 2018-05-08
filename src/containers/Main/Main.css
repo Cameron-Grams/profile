@@ -1,5 +1,5 @@
 .outerShell{
-    margin-top: 5%; 
+    margin-top: 2%; 
     width: 100%;
 }
 
@@ -23,7 +23,7 @@
     width: 45%;
 }
 
-.contactInfo{
+#contactInfo{
     width: 75%;
     margin: auto; 
     text-align: center;
@@ -54,6 +54,7 @@
         width: 90%;
         max-width: 1500px;
         margin: auto;
+        padding: 15px;
         overflow: auto;
         clear: both; 
     }

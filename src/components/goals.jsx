@@ -11,7 +11,7 @@ const Goals = ( props ) => {
             <div className={ "headerContent" }  >
                 
                 <h2>Goals</h2>
-                <p>I am committed to mastering Javascript, but I recognize there are many supporting tools and technology that require attention as well:</p>
+                <h3>I am committed to mastering Javascript, but I recognize there are many supporting tools and technology that require attention as well:</h3>
                 <List itemListArray={ GoalList } /> 
             </div>
         </div>

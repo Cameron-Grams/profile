@@ -1,7 +1,7 @@
 const ProjectsList = [
     {
         title: "Analyst Timeline Project",
-        content: "This is a research tool I built using React, Redux, Node and MongoDB.  I find a timeline useful when learning about new situations. Topics can be organized into individual timelines with events represented by the time they occur.  The MongoDB, hosted on mLab, maintains collections of users, timelines, and events. Each timeline is populated into the global state of the application managed by Redux as required.",
+        content: "This is my most complex project. The Analyt's Timeline is the tool that I wish I had when I deployed to Iraq. It is a work in progress that I plan to evolve; I plan to refine this project by moving the presentation of the timeline away from a CSS component to an SVG format. The application is built with React using Redux to maintain overall state and Node providing the endpoints to access MongoDB running on mLab.",
         projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/analystTimeline2.png",
         demonstration: "https://www.analyst-timeline.xyz/",
         sourceCode: "https://github.com/Cameron-Grams/third_timeline_client"
@@ -22,7 +22,7 @@ const ProjectsList = [
     },
     {
         title: "Languages in the United States",
-        content: "I built this because I have always found languages fascinating.  The application uses US Census data from 2013 that was cleaned and configured into JSON from the US Census web site. The language data was then added as layers to the US map using the MapBox API. The application uses JQuery to reach the MapBox API.", 
+        content: "I built this because I have always found languages fascinating.  The application uses US Census data from 2013 that was cleaned and configured into JSON. The language data was then added as layers to the US map using the MapBox API. The application uses JQuery to reach the MapBox API.", 
         projectImage: "https://s3.us-east-2.amazonaws.com/cameronprofilephotos/langDist.png",
         demonstration: "http://us-languages2013.fun/",
         sourceCode: "https://github.com/Cameron-Grams/USLanguageDistribution"

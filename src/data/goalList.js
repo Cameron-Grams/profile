@@ -17,7 +17,7 @@ const GoalList = [
     },
     {
         title: "Python",
-        content: "I started with Python but was seduced by Javascript...I'd like to give Python some attention in the future as well, especially with all of the development taking place in data science and machine learning.",
+        content: "I started with Python but have been focused on Javascript out of a desire to build the best applications possible. I'd like to give Python some attention in the future as well, especially with all of the development taking place in data science and machine learning.",
     }
 ];
 
